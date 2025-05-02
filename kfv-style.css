@@ -1,3 +1,4 @@
+/*** temporary search bar update ***/
 [data-testid="search-bar.guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="search-bar.guests-breakdown-overlay-modal"] > div:nth-of-type(4), [data-testid="search-app.guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="search-app.guests-breakdown-overlay-modal"] > div:nth-of-type(4), [data-testid="storybook-guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="storybook-guests-breakdown-overlay-modal"] > div:nth-of-type(4) {
   display:none
   }
