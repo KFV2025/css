@@ -62,6 +62,7 @@
       
       .ui.inverted.header, h1, h2{
       font-family: 'Caveat Brush', sans-serif !important; 
+        line-height: normal;
       }
       
       .basefont, h4, h5, h6{
@@ -102,14 +103,19 @@
       font-size: 96px;
       }
       
-      p, span, li:not(.DayPicker_weekHeader_li){
+      p, span:not(.es-review-author-name), li:not(.DayPicker_weekHeader_li){
       font-family: 'Nunito', sans-serif !important;
       color: #231101;
       font-size: 18px;
       line-height: 1.5em;
       font-weight: 400;
       }
-      
+
+      [data-testid="guests-breakdown-trigger-value"] {
+      font-size: 14px;  
+      }
+
+
       td{
       font-size: 14px;
       }
@@ -988,10 +994,11 @@
       
       .guestreviews, .ownerreviews{
         cursor: pointer;
-          border: 1px solid #fff;
-          padding: 12px 24px;
-          margin-bottom: 0;
-      color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 24px;
+        margin-bottom: 0;
+        color: #fff;
+        height: fit-content;
       }
       
       .guestreviews{
