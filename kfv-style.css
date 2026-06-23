@@ -215,6 +215,7 @@
         border-radius: 100px;
         padding: 12px 32px;
       text-align: center;
+        font-size: 18px;
       margin-top: 32px;
       }
       
@@ -2584,7 +2585,7 @@
       width: 100%;
       column-gap: 16px;
       height: fit-content;
-      margin-bottom: 32px;
+      margin-bottom: 16px;
       }
       
       #guests:before{
