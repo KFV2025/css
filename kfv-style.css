@@ -116,7 +116,7 @@
       }
 
       /*stars in product cards*/
-      button span {
+      .card-body > div> button > span{
       font: inherit !important;
       color: #FAA100 !important;
       }
