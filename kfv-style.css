@@ -115,12 +115,19 @@
       font-weight: 400;
       }
 
-      /*stars in product cards*/
+      /*Card body: stars in product cards, price size & alignment*/
       .card-body > div> button > span{
       font: inherit !important;
       color: #FAA100 !important;
       }
-
+      .card-body > div{
+        align-items: center;
+      }
+      
+      .card-body > div > span {
+      font-size: 1.25rem !important;
+      font-weight: 700;
+      }
 
       [data-testid="guests-breakdown-trigger-value"] {
       font-size: 14px !important;  
