@@ -112,7 +112,7 @@
       }
 
       [data-testid="guests-breakdown-trigger-value"] {
-      font-size: 14px;  
+      font-size: 14px !important;  
       }
 
 
