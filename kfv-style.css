@@ -46,8 +46,12 @@
       margin: 0px;
       }
       
-      img, .image-gallery-swipe > div{
+      img, .image-gallery-swipe > div, [data-testid="component-resolver.FeaturedProperties"] > div > a {
       border-radius: 10px !important;
+      }
+
+      .card-cover-image > figure > div > img{
+      border-radius: 10px 10px 0px 0px !important;
       }
       
       .image-gallery>.image-gallery-content .image-gallery-slide-wrapper .image-gallery-slide .image{
@@ -110,6 +114,13 @@
       line-height: 1.5em;
       font-weight: 400;
       }
+
+      /*stars in product cards*/
+      button span {
+      font: inherit !important;
+      color: #FAA100 !important;
+      }
+
 
       [data-testid="guests-breakdown-trigger-value"] {
       font-size: 14px !important;  
