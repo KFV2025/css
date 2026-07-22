@@ -4,10 +4,6 @@
   }
   
   /*** GENERAL ***/
-body{
-  background-color: #FFFAF4;
-}
-
   html{
       scroll-behavior: smooth !important;
       }
