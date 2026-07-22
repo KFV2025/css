@@ -358,7 +358,7 @@
           background-color: var(--ldg-semantic-color-primary) !important;
       }
 
-ul.orientation-horizontal > li > button{
+ul.orientation-horizontal > li > button, ul.orientation-vertical > li > button{
   font-size: 17px !important;
 }
       
