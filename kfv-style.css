@@ -332,6 +332,7 @@
       
       .fullwidth > .css-1vv8uua, .css-ygvukt, .css-1bjyrtz, .waves-bg > div {
           max-width: 1120px !important;
+        padding: 0 40px !important;
       }
       
       .fullwidth > .css-ypkxdr, .fullwidth > .css-1vv8uua {
