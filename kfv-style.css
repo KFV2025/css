@@ -358,8 +358,8 @@
           background-color: var(--ldg-semantic-color-primary) !important;
       }
 
-nav > div > ul > li > button{
-  font-size: 17px;
+ul.orientation-horizontal > li > button{
+  font-size: 17px !important;
 }
       
   /*** HOMEPAGE ***/
