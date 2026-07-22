@@ -1700,6 +1700,9 @@
       .ui.segment.full-bleed{
       height: 70vh;
       }
+
+      .css-1bjyrtz{
+      padding: 0 40px !important;
       
       .eapps-testimonials-slider-slider .eui-slider-arrow-prev{
       left: 0px !important;
