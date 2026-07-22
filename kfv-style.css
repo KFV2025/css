@@ -357,6 +357,10 @@
       .css-u8rg86 .sliding-menu-wrapper .navigation-icon .central-bar, .css-u8rg86 .sliding-menu-wrapper .navigation-icon:before, .css-u8rg86 .sliding-menu-wrapper .navigation-icon:after {
           background-color: var(--ldg-semantic-color-primary) !important;
       }
+
+nav > div > ul > li > button{
+  font-size: 17px;
+}
       
   /*** HOMEPAGE ***/
       /*hero section*/
