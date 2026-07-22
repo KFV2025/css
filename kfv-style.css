@@ -665,7 +665,7 @@
       .storyline {
           font-family: 'Caveat Brush', sans-serif !important;
           color: #231101;
-          font-size: 52px;
+          font-size: 52px !important;
           text-align: center;
       line-height: 1em;
       margin-bottom: 40px;
@@ -1787,7 +1787,7 @@
   min-width: 100% !important;
   }
   
-  .fullwidth > .css-1vv8uua, .css-ygvukt {
+  .fullwidth > .css-1vv8uua, .css-1bjyrtz {
   padding: 0 16px !important;
   }
       
