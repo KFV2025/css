@@ -326,11 +326,11 @@
           width: 50%;
       }
       
-      .fullwidth > .css-jv51of, .css-11jhp1w {
+      .fullwidth > .css-jv51of, .css-11jhp1w, .css-1bjyrtz, .css-1bjyrtz > .css-dlkia1 {
           max-width: 1120px;
       }
 
-      .css-1bjyrtz, .css-1bjyrtz > .css-dlkia1{
+      .css-1bjyrtz{
         padding: 0px;
       }
       
