@@ -329,10 +329,6 @@
       .fullwidth > .css-jv51of, .css-11jhp1w, .css-1bjyrtz, .css-1bjyrtz > .css-dlkia1 {
           max-width: 1120px;
       }
-
-      .css-1bjyrtz{
-        padding: 0px;
-      }
       
       .fullwidth > .css-1vv8uua, .css-ygvukt, .css-1bjyrtz, .waves-bg > div {
           max-width: 1120px !important;
@@ -1408,6 +1404,12 @@
       bottom: -70px;
       }
       }
+
+@media (min-width:1120px) and (max-width:1240px) {
+.css-1bjyrtz > .css-dlkia1{
+        padding: 0 40px;
+      }
+}
       
       @media only screen and (min-width: 1000px){
       .backtop{
