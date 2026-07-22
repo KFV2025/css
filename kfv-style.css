@@ -145,6 +145,7 @@
       .fullwidth{
       min-width: 100% !important;
       max-width: 100%;
+      justify-content: center;
       }
       
       .fullwidth > .ui.grid{
