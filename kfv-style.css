@@ -1324,7 +1324,7 @@ margin-bottom: 16px !important;
       }
       
       /*** FOOTER ***/
-      footer .css-12aya9n, footer .css-1fdzo3y{
+      footer .css-12aya9n, footer .css-1fdzo3y, footer css-cfcik9{
       z-index: 1;
       position: relative;
       background-color: #FEFAF4 !important;
@@ -1347,7 +1347,7 @@ margin-bottom: 16px !important;
           background-color: transparent !important;
       }
       
-      .end-footer > div > .rights, .css-1jipdwj.small svg, .css-d6pjil{
+      .end-footer > div > .rights, .css-1jipdwj.small svg, .css-d6pjil, .options > button{
       color: #231101 !important;
       }
       
