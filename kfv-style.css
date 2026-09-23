@@ -71,6 +71,10 @@
 
 /* Hero heading: 72px at 600px → 96px at 1200px */
 
+[data-testid="widgets.hero-widget]{
+  margin-bottom:0;
+}
+
 [data-testid="widgets.hero-widget"] h1 {
     font-family: 'Caveat Brush', sans-serif !important;
     font-size: clamp(72px, calc(40px + 4vw), 88px) !important;
