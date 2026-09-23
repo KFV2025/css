@@ -19,7 +19,7 @@
     top: -90px;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath d='M0,90 C300,55 650,35 950,45 C1150,50 1300,65 1440,85 L1440,120 L0,120 Z' fill='%23FEFAF4'/%3E%3C/svg%3E");
+    background-image: url("https://l.icdbcdn.com/oh/5cc1a897-4af4-4013-9d0c-c74415c03951.png?f=32");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -117,7 +117,7 @@
     font-size: clamp(40px, calc(8px + 4vw), 48px) !important;
     line-height: 1em;
     color: #0074CC !important;
-  text-shadow: 0px 0px 16px rgba(0, 48, 85, 0.20) !important;
+  /*text-shadow: 0px 0px 16px rgba(0, 48, 85, 0.20) !important;*/
     text-align: center;
     width: 100%;
     margin-bottom: 2%;
@@ -812,7 +812,7 @@ ul.orientation-horizontal > li > button, ul.orientation-vertical > li > button{
       .LivingstoneTwo > article > div > h1{
       color: #0074CC !important;
       margin-bottom: 22px !important;
-      text-shadow: 0px 0px 16px rgba(0, 48, 85, 0.20);
+      /*text-shadow: 0px 0px 16px rgba(0, 48, 85, 0.20);*/
       width: 100%;
       }
       
