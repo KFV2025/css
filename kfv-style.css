@@ -2,6 +2,40 @@
 [data-testid="search-bar.guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="search-bar.guests-breakdown-overlay-modal"] > div:nth-of-type(4), [data-testid="search-app.guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="search-app.guests-breakdown-overlay-modal"] > div:nth-of-type(4), [data-testid="storybook-guests-breakdown-overlay-modal"] > div:nth-of-type(3), [data-testid="storybook-guests-breakdown-overlay-modal"] > div:nth-of-type(4) {
   display:none
   }
+
+
+/* TEST SWHOOSH */
+.LivingstoneTwo > article > div {
+
+    position: relative;
+
+    background: red;
+
+    z-index: 2;
+
+}
+
+.LivingstoneTwo > article > div::before {
+
+    content: "";
+
+    position: absolute;
+
+    z-index: -1;
+
+    width: 130%;
+
+    height: 180px;
+
+    left: -15%;
+
+    top: -80px;
+
+    background: red;
+
+    border-radius: 50% 50% 0 0;
+
+}
   
   /*** GENERAL ***/
   html{
