@@ -1121,9 +1121,9 @@ margin-bottom: 16px !important;
       align-self: stretch !important;
       }
 
-      .slideshow-frame{
+      /*.slideshow-frame{
         aspect-ratio: auto !important;
-      }
+      }*/
 
       [data-testid="carousel.indicator"]{
       position: absolute;
