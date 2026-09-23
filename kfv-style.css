@@ -68,7 +68,16 @@
       font-family: 'Caveat Brush', sans-serif !important; 
         line-height: normal;
       }
-      
+
+/* Hero heading: 72px at 600px → 96px at 1200px */
+    [data-testid="widgets.hero-widget"] h1 {
+    font-size: clamp(72px, calc(48px + 4vw), 96px);
+    }
+/* Hero slogan: 32px at 600px → 56px at 1200px */
+    [data-testid="widgets.hero-widget"] .hero-slogan {
+    font-size: clamp(32px, calc(8px + 4vw), 56px);
+    }
+
       .basefont, h4, h5, h6{
       font-family: 'Nunito', sans-serif !important;
       }
@@ -808,7 +817,7 @@ ul.orientation-horizontal > li > button, ul.orientation-vertical > li > button{
     font-family: 'Caveat Brush', sans-serif !important;
     font-size: 96px;
     padding: 12px 0px;
-  line-height: 10px !important;
+  line-height: 0.5em !important;
 margin-bottom: 16px !important;
 }
 
