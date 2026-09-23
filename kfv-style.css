@@ -1129,7 +1129,6 @@ margin-bottom: 16px !important;
       .alignheight > .gallery-wrapper, .alignheight > .gallery-wrapper > .image-gallery, .alignheight > .gallery-wrapper > .image-gallery-content > .image-gallery-slide-wrapper, .alignheigt > div > div > div > div > div.image-gallery-swipe, .alignheight > div > div > div > div, .alignheight > div > div > div > div > div.image-gallery-swipe > div, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center > div{
           height: 100% !important;
           max-height: 490px;
-      position: relative;
       }
   
   .alignheight > div > div > div{
