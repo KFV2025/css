@@ -1120,22 +1120,25 @@ margin-bottom: 16px !important;
       .top.aligned.six.wide.computer.twelve.wide.mobile.twelve.wide.tablet.column.alignheight{
       align-self: stretch !important;
       }
+
+      .slideshow-frame{
+        aspect-ratio: auto !important;
+      }
+
+      [data-testid="carousel.indicator"]{
+      position: absolute;
+      height: fit-content !important;
+      }
       
       .image-gallery>.image-gallery-content .image-gallery-slide-wrapper>.image-gallery-swipe .image-gallery-slides{
       background-color: transparent !important;
       }
       
       
-      .alignheight > .gallery-wrapper, .alignheight > .gallery-wrapper > .image-gallery, .alignheight > .gallery-wrapper > .image-gallery-content > .image-gallery-slide-wrapper, .alignheigt > div > div > div > div > div.image-gallery-swipe, .alignheight > div > div > div > div, .alignheight > div > div > div > div > div.image-gallery-swipe > div, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center > div{
+      .alignheight > .gallery-wrapper, .alignheight > .gallery-wrapper > .image-gallery, .alignheight > .gallery-wrapper > .image-gallery-content > .image-gallery-slide-wrapper, .alignheigt > div > div > div > div > div.image-gallery-swipe, /*.alignheight > div > div > div > div, */ .alignheight > div > div > div > div > div.image-gallery-swipe > div, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center, .alignheight > div > div > div > div > div.image-gallery-swipe > div > div.image-gallery-slide.center > div{
           height: 100% !important;
           max-height: 490px;
       }
-  
-  .alignheight > div > div > div{
-          height: 100% !important;
-          max-height: 100%;
-      position: relative;
-  }
       
       .alignheight > .html-container, .cstm-heightimg, .cstm-heightimg > img, .alignheight > div, .alignheight > div> div, .alignheight > div > div > figure{
       height: 100%;
