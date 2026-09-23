@@ -71,7 +71,7 @@
 
 /* Hero heading: 72px at 600px → 96px at 1200px */
 
-[data-testid="widgets.hero-widget]{
+[data-testid="widgets.hero-widget"]{
   margin-bottom:0;
 }
 
