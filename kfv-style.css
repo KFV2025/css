@@ -4,11 +4,6 @@
   }
   
   /*** GENERAL ***/
-body{
-  --ldg-component-hero-widget-image-height: calc (100vh - 100px);
---ldg-component-hero-widget-max-height: calc (100vh - 100px);
-}
-
   html{
       scroll-behavior: smooth !important;
       }
@@ -38,7 +33,12 @@ body{
       body{
       color: #231101;
       }
-      
+
+  .LivingstoneTwo {
+    --ldg-component-hero-widget-image-height: calc(100vh - 100px) !important;
+    --ldg-component-hero-widget-max-height: calc(100vh - 100px) !important;
+  }
+
       /** calendar **/
       .css-m9ruq2{
       width: 100%;
