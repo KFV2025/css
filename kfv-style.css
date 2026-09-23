@@ -808,6 +808,11 @@ ul.orientation-horizontal > li > button, ul.orientation-vertical > li > button{
     font-family: 'Caveat Brush', sans-serif !important;
     font-size: 96px;
     padding: 12px 0px;
+  line-height: 1 !important;
+}
+
+.coloredletter {
+    line-height: 1 !important;
 }
 
 .small > .colored-sDB > div,
