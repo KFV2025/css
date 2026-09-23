@@ -6,35 +6,22 @@
 
 /* TEST SWHOOSH */
 .LivingstoneTwo > article > div {
-
     position: relative;
-
-    background: red;
-
+    background: #FFFAF4;
     z-index: 2;
-
 }
 
 .LivingstoneTwo > article > div::before {
-
     content: "";
-
     position: absolute;
-
     z-index: -1;
-
-    width: 130%;
-
-    height: 180px;
-
-    left: -15%;
-
-    top: -80px;
-
-    background: red;
-
-    border-radius: 50% 50% 0 0;
-
+    left: 0;
+    top: -90px;
+    width: 100%;
+    height: 100px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath d='M0,90 C300,55 650,35 950,45 C1150,50 1300,65 1440,85 L1440,120 L0,120 Z' fill='%23FEFAF4'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
   
   /*** GENERAL ***/
