@@ -103,7 +103,7 @@
 
 [data-testid="widgets.hero-widget"] h1 {
     font-family: 'Caveat Brush', sans-serif !important;
-    font-size: clamp(64px, calc(40px + 4vw), 80px) !important;
+    font-size: clamp(64px, calc(40px + 4vw), 72px) !important;
     color: #0074CC !important;
     text-align: center;
     width: 100%;
