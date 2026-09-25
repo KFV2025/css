@@ -1820,14 +1820,41 @@ margin-bottom: 16px !important;
           column-gap: 15px;
           line-height: 1.5em;
       }
-      
-      .colored-sDB > div, .colored-sO > div, .colored-sY > div, .colored-sLB > div{
-      font-size: 60px !important;
-      }
-      
-      .small > .colored-sDB > div, .small > .colored-sO > div, .small > .colored-sY > div, .small > .colored-sLB > div, .x-small > .colored-sDB > div, .x-small > .colored-sO > div, .x-small > .colored-sY > div, .x-small > .colored-sLB > div{
-      font-size: 60px !important;
-      }
+
+.colored-sDB > div,
+.colored-sO > div,
+.colored-sY > div,
+.colored-sLB > div,
+.colored-sDB > span,
+.colored-sO > span,
+.colored-sY > span,
+.colored-sLB > span {
+    font-size: 60px !important;
+}
+
+.small > .colored-sDB > div,
+.small > .colored-sO > div,
+.small > .colored-sY > div,
+.small > .colored-sLB > div,
+.small > .colored-sDB > span,
+.small > .colored-sO > span,
+.small > .colored-sY > span,
+.small > .colored-sLB > span {
+    font-size: 56px !important;
+}
+
+.x-small > .colored-sDB > div,
+.x-small > .colored-sO > div,
+.x-small > .colored-sY > div,
+.x-small > .colored-sLB > div,
+.x-small > .colored-sDB > span,
+.x-small > .colored-sO > span,
+.x-small > .colored-sY > span,
+.x-small > .colored-sLB > span {
+    font-size: 48px !important;
+}
+
+        
       
       .waves-bg {
           padding: 70px 16px;
