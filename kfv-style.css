@@ -99,6 +99,16 @@
 
 [data-testid="widgets.hero-widget"]{
   margin-bottom: 0 !important;
+  height: fit-content !important;
+  max-height: fit-content !important;
+}
+
+[data-testid="widgets.hero-widget.hero-image-wrapper"]{
+height: 60vh;
+}
+
+[data-testid="widgets.hero-widget.hero-image-wrapper"] > img{
+height: 100%;
 }
 
 [data-testid="widgets.hero-widget"] h1 {
@@ -792,7 +802,7 @@ ul.orientation-horizontal > li > button, ul.orientation-vertical > li > button{
       }
       
       .LivingstoneTwo.false > article > div{
-      position: absolute;
+      position: initial;
           bottom: 0px;
       }
       
