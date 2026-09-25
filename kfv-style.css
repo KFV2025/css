@@ -324,6 +324,13 @@ height: 100%;
       .html-container > .wistia_responsive_padding * iframe{
       border-radius: 15px;
       }
+
+iframe.wistia_embed {
+width: 100% !important;
+height: auto !important;
+aspect-ratio: 16 / 9;
+display: block;
+}
       
       .spacer{
       height: 20px;
