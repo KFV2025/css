@@ -113,7 +113,7 @@ height: 100%;
 
 [data-testid="widgets.hero-widget"] h1 {
     font-family: 'Caveat Brush', sans-serif !important;
-    font-size: clamp(40px, calc(48px + 4vw), 72px) !important;
+    font-size: clamp(40px, calc(40px + 4vw), 72px) !important;
     color: #0074CC !important;
     text-align: center;
     width: 100%;
@@ -124,7 +124,7 @@ height: 100%;
 /* Hero slogan: 32px at 600px → 56px at 1200px */
 [data-testid="widgets.hero-widget"] .hero-slogan {
     font-family: 'Caveat Brush', sans-serif !important;
-    font-size: clamp(28px, calc(8px + 4vw), 48px) !important;
+    font-size: clamp(28px, calc(28px + 4vw), 48px) !important;
     line-height: 1em;
     color: #0074CC !important;
   /*text-shadow: 0px 0px 16px rgba(0, 48, 85, 0.20) !important;*/
