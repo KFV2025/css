@@ -1822,11 +1822,11 @@ margin-bottom: 16px !important;
       }
       
       .colored-sDB > div, .colored-sO > div, .colored-sY > div, .colored-sLB > div{
-      font-size: 60px;
+      font-size: 60px !important;
       }
       
       .small > .colored-sDB > div, .small > .colored-sO > div, .small > .colored-sY > div, .small > .colored-sLB > div, .x-small > .colored-sDB > div, .x-small > .colored-sO > div, .x-small > .colored-sY > div, .x-small > .colored-sLB > div{
-      font-size: 60px;
+      font-size: 60px !important;
       }
       
       .waves-bg {
